@@ -11,8 +11,8 @@ servicios.addEventListener("click", (s) => {
     selectionS.scrollIntoView({ behavior: "smooth" });
 })
 
-acerca.addEventListener("click", (p) => {
-    p.preventDefault();
+acerca.addEventListener("click", (a) => {
+    a.preventDefault();
 
     const selectionP = document.querySelector(".about");
     selectionP.scrollIntoView({ behavior: "smooth" });
